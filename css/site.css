@@ -273,3 +273,10 @@ details p{margin:.7em 0 0;color:var(--muted)}
 .legal__lead{background:var(--tint);border-radius:var(--r);padding:16px 18px}.legal__note{color:var(--muted);font-size:.95rem}
 .awards__row .awards__strip{width:420px!important;max-width:100%;flex-basis:auto;margin-left:auto}
 @media (max-width:760px){.awards__row .awards__strip{width:320px!important;margin:0 auto}}
+/* six-year Best of Southern Utah badge strip */
+.ftr__awards{width:230px;height:auto;margin:6px 0 14px}
+.phero__in{position:relative}
+.phero__awards{position:absolute;right:20px;top:50%;transform:translateY(-50%);width:330px;height:auto;filter:drop-shadow(0 6px 14px rgba(15,46,99,.18))}
+@media (max-width:1100px){.phero__awards{width:260px}}
+@media (max-width:900px){.phero__awards{position:static;transform:none;display:block;width:240px;margin:22px 0 0}}
+.side__awards{width:100%;max-width:260px;height:auto;margin:0 auto 14px;display:block}
