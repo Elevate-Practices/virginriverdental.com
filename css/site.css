@@ -271,3 +271,5 @@ details p{margin:.7em 0 0;color:var(--muted)}
 @media (max-width:900px){.smap{grid-template-columns:1fr 1fr}}@media (max-width:560px){.smap{grid-template-columns:1fr}}
 .ftr__legal a{color:#C9D6EC}
 .legal__lead{background:var(--tint);border-radius:var(--r);padding:16px 18px}.legal__note{color:var(--muted);font-size:.95rem}
+.awards__row .awards__strip{width:420px!important;max-width:100%;flex-basis:auto;margin-left:auto}
+@media (max-width:760px){.awards__row .awards__strip{width:320px!important;margin:0 auto}}
