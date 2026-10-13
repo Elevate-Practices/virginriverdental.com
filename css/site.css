@@ -270,3 +270,4 @@ details p{margin:.7em 0 0;color:var(--muted)}
 .smap__list{list-style:none;padding:0;margin:0}.smap__list li{padding:5px 0;border-bottom:1px solid var(--line);font-size:.95rem}.smap__list a{text-decoration:none}
 @media (max-width:900px){.smap{grid-template-columns:1fr 1fr}}@media (max-width:560px){.smap{grid-template-columns:1fr}}
 .ftr__legal a{color:#C9D6EC}
+.legal__lead{background:var(--tint);border-radius:var(--r);padding:16px 18px}.legal__note{color:var(--muted);font-size:.95rem}
