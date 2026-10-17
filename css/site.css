@@ -281,3 +281,6 @@ details p{margin:.7em 0 0;color:var(--muted)}
 @media (max-width:900px){.phero__awards{position:static;transform:none;display:block;width:240px;margin:22px 0 0}}
 .side__awards{width:100%;max-width:260px;height:auto;margin:0 auto 14px;display:block}
 .offer__fine{font-size:.85rem;opacity:.8;margin-top:.35rem}
+
+/* Mobile action bar: pill buttons with room for the GHL chat bubble on the right (Elevate standard, Oct 16 2026) */
+@media(max-width:900px){.stickybar{gap:10px;padding:10px 84px calc(10px + env(safe-area-inset-bottom)) 12px}.stickybar a{border-radius:999px;padding:12px 8px;background:#F1F4F8}.stickybar a.stickybar__book{background:var(--accent)}}
