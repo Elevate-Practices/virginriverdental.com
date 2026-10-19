@@ -284,3 +284,12 @@ details p{margin:.7em 0 0;color:var(--muted)}
 
 /* Mobile action bar: pill buttons with room for the GHL chat bubble on the right (Elevate standard, Oct 16 2026) */
 @media(max-width:900px){.stickybar{gap:10px;padding:10px 84px calc(10px + env(safe-area-inset-bottom)) 12px}.stickybar a{border-radius:999px;padding:12px 8px;background:#F1F4F8}.stickybar a.stickybar__book{background:var(--accent)}}
+
+/* Best of Southern Utah 2026 badge beside the logo */
+.hdr-badge{flex:none;display:flex;align-items:center;margin-left:4px;padding-left:18px;border-left:1px solid var(--line);text-decoration:none}
+.hdr-badge img{width:56px;height:56px;display:block;transition:transform .25s ease;filter:drop-shadow(0 3px 8px rgba(0,0,0,.25))}
+.hdr-badge:hover img{transform:rotate(-8deg) scale(1.06)}
+.brand{flex:none}
+@media (max-width:1180px){.hdr-badge{padding-left:12px}}
+@media (max-width:420px){.hdr-badge{padding-left:10px}.hdr-badge img{width:44px;height:44px}}
+@media (max-width:560px){.hdr__in{gap:10px}.hdr-badge{padding-left:8px}.hdr-badge img{width:40px;height:40px}.brand img{width:128px}}
