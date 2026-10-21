@@ -330,3 +330,5 @@ details p{margin:.7em 0 0;color:var(--muted)}
 .nav .mega__card a.btn:hover{background:var(--primary);border-color:var(--primary)}
 .nav .mega__card a.mega__all,.nav .mega__card a.mega__all:hover{background:none;border-radius:0;color:var(--primary)}
 .dd{width:390px}
+/* tooth mark from the logo on each service card (Chris liked it on the old site, Oct 21 2026) */
+.svc__ic{width:56px;height:auto;margin:0 0 16px}
