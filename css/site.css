@@ -303,3 +303,30 @@ details p{margin:.7em 0 0;color:var(--muted)}
 .hero__award b{display:block;font-size:1.05rem}
 @media (max-width:760px){.hero__award span{display:none}.hero__award img{width:56px;height:56px}}
 @media (prefers-reduced-motion:reduce){.hero__media>img{animation:none}}
+/* Services mega menu, full width under the header (Oct 21 2026, same pattern as the other Elevate sites) */
+.nav__item--full{position:static}
+.mega--full{left:0;right:0;transform:translateY(-6px);border-radius:0;border-width:1px 0;padding:0;box-shadow:0 28px 48px -22px rgba(15,46,99,.35)}
+.mega--full.is-open{transform:none}
+.mega--full::before{content:"";position:absolute;left:0;right:0;top:-26px;height:26px}
+.mega--full .mega__in{grid-template-columns:1fr 1fr 1fr 1.15fr;gap:36px;padding:30px 20px 34px}
+.mega--full .mega__col{display:grid;align-content:start;gap:2px}
+.mega--full .mega__h{display:flex;align-items:center;gap:12px;font-size:.8rem;letter-spacing:.14em;color:var(--deep);margin:0 0 10px;padding-bottom:10px;border-bottom:2px solid var(--primary)}
+.mega__ic{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--tint);color:var(--primary);flex:none}
+.mega__ic svg{width:20px;height:20px}
+.mega--full .mega__col>a:not(.btn):not(.mega__all){font-weight:600;font-size:.97rem;color:var(--text);padding:8px 10px;margin-inline:-10px;border-radius:8px;text-decoration:none;transition:background .15s,color .15s}
+.mega--full .mega__col>a:not(.btn):not(.mega__all):hover,.mega--full .mega__col>a[aria-current]{background:var(--tint);color:var(--primary)}
+.mega__card{background:var(--tint);border:1px solid #CFE0F3;border-radius:var(--r-lg);padding:22px 24px;gap:12px!important}
+.mega__ct{font-size:1.08rem;font-weight:700;color:var(--deep);margin:0}
+.mega__cp{font-size:.95rem;color:var(--muted);margin:0 0 4px}
+.mega--full .mega__card .btn{display:inline-flex;justify-content:center;gap:8px;padding:13px 20px;font-size:.97rem}
+.mega--full .mega__card .btn svg{width:18px;height:18px}
+.mega--full .mega__all{display:inline-flex;align-items:center;gap:6px;padding:0;font-weight:600;font-size:.95rem;color:var(--primary);text-decoration:none}
+.mega__all svg{width:16px;height:16px}.mega__all:hover{text-decoration:underline}
+/* New Patients dropdown: keep every row inside the panel */
+.dd{width:380px;box-sizing:border-box}
+.mega .dd__a{min-width:0;width:100%;box-sizing:border-box;white-space:normal}
+.dd__a span{white-space:normal}
+.nav .mega__card a.btn,.nav .mega__card a.btn:hover{background:#1E73BE;color:#fff;border:2px solid #1E73BE;border-radius:999px;font-weight:700}
+.nav .mega__card a.btn:hover{background:var(--primary);border-color:var(--primary)}
+.nav .mega__card a.mega__all,.nav .mega__card a.mega__all:hover{background:none;border-radius:0;color:var(--primary)}
+.dd{width:390px}
