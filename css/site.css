@@ -348,3 +348,6 @@ body.nav-open chat-widget,body.nav-open #chat-widget-container,body.nav-open .lc
 .hdr__cta .lang:hover{background:var(--tint);color:var(--primary)}
 .mnav__lang{display:none}
 @media (max-width:1060px){.hdr__cta .lang{display:none}.mnav a.mnav__lang{display:block;color:var(--accent-text)}}
+/* Spanish labels are longer: show the phone as an icon button on laptop widths so the header fits */
+@media (min-width:1061px) and (max-width:1440px){html[lang="es"] .hdr__phone span{display:none}html[lang="es"] .hdr__phone{width:42px;height:42px;border-radius:12px;background:var(--tint);justify-content:center}}
+@media (min-width:1061px) and (max-width:1200px){html[lang="es"] .hdr-badge{display:none}html[lang="es"] .nav a,html[lang="es"] .nav__btn{padding:10px 8px}}
