@@ -332,3 +332,12 @@ details p{margin:.7em 0 0;color:var(--muted)}
 .dd{width:390px}
 /* tooth mark from the logo on each service card (Chris liked it on the old site, Oct 21 2026) */
 .svc__ic{width:56px;height:auto;margin:0 0 16px}
+/* phone menu: the header's blur made it the containing block for the fixed menu, squashing it to a strip (Oct 21 2026) */
+@media (max-width:1060px){
+ .hdr{backdrop-filter:none;-webkit-backdrop-filter:none;background:#fff}
+ body.nav-open .hdr{z-index:200}
+ .mnav{overscroll-behavior:contain}
+}
+@media (max-width:1060px){
+ .mnav a.btn{display:flex;justify-content:center;align-items:center;color:#fff;padding:15px 20px;border-bottom:0;border-radius:999px}
+}
