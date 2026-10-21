@@ -343,3 +343,8 @@ details p{margin:.7em 0 0;color:var(--muted)}
 }
 /* hide the chat bubble while the phone menu is open */
 body.nav-open chat-widget,body.nav-open #chat-widget-container,body.nav-open .lc_text-widget{display:none!important}
+/* English / Español switch */
+.hdr__cta .lang{font-weight:700;font-size:.9rem;color:var(--primary);text-decoration:none;padding:8px 12px;border:1.5px solid var(--line);border-radius:999px;white-space:nowrap}
+.hdr__cta .lang:hover{background:var(--tint);color:var(--primary)}
+.mnav__lang{display:none}
+@media (max-width:1060px){.hdr__cta .lang{display:none}.mnav a.mnav__lang{display:block;color:var(--accent-text)}}
