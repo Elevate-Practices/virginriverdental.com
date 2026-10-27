@@ -356,3 +356,6 @@ body.nav-open chat-widget,body.nav-open #chat-widget-container,body.nav-open .lc
 .nav{align-items:center}
 .nav>li{display:flex;align-items:center}
 .nav>li>.nav__btn{line-height:inherit}
+/* Header nav v2: fixed control height + inline-flex so links and buttons center identically in Safari/Chrome (Oct 27 2026) */
+.nav>li{height:44px;align-items:center}
+.nav>li>a,.nav>li>.nav__btn{box-sizing:border-box;height:44px;margin:0;line-height:1.2;display:inline-flex;align-items:center;vertical-align:middle;-webkit-appearance:none;appearance:none}
