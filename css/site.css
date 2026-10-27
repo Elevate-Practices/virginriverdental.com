@@ -351,3 +351,8 @@ body.nav-open chat-widget,body.nav-open #chat-widget-container,body.nav-open .lc
 /* Spanish labels are longer: show the phone as an icon button on laptop widths so the header fits */
 @media (min-width:1061px) and (max-width:1440px){html[lang="es"] .hdr__phone span{display:none}html[lang="es"] .hdr__phone{width:42px;height:42px;border-radius:12px;background:var(--tint);justify-content:center}}
 @media (min-width:1061px) and (max-width:1200px){html[lang="es"] .hdr-badge{display:none}html[lang="es"] .nav a,html[lang="es"] .nav__btn{padding:10px 8px}}
+
+/* Header nav: dropdown buttons and plain links sat at different heights (buttons use line-height:normal), so center them together (Oct 27 2026) */
+.nav{align-items:center}
+.nav>li{display:flex;align-items:center}
+.nav>li>.nav__btn{line-height:inherit}
